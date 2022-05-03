@@ -15,6 +15,8 @@ def power(num, x=1):
     for i in range(x):
         result = result*num
     return result
+
+
 # Function that takes variable number of arguments
 def multi_add(*args):
     result = 0

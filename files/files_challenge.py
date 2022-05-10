@@ -13,10 +13,10 @@ def main():
             totalbytes += filesize
 
     # make a new directory
-    os.mkdir("resultsdir")
+    os.mkdir("../resultsdir")
 
     # create the output file
-    resultsfile = open('resultsdir/results.txt', 'w+')
+    resultsfile = open('../resultsdir/results.txt', 'w+')
     if resultsfile.mode == 'w+':
         resultsfile.write("Total bytecount:" + str(totalbytes) )
         resultsfile.write("Files list:\n")

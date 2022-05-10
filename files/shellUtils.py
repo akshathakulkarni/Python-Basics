@@ -6,7 +6,7 @@ from zipfile import ZipFile
 
 def main():
     # make a duplicate of an existing file
-    if path.exists("textfile.txt.bak"):
+    if path.exists("../textfile.txt.bak"):
         # get the path to the file in the current directory
         src = path.realpath("textfile.txt")
 
@@ -23,7 +23,7 @@ def main():
         # shutil.make_archive('archive', 'zip', root_dir)
 
         # more fine-grained control over ZIP files
-        with ZipFile('testzip.zip', 'w') as newzip:
+        with ZipFile('../testzip.zip', 'w') as newzip:
             newzip.write('newfile.txt')
             newzip.write('textfile.txt.bak')
 

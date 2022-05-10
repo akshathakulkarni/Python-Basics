@@ -1,0 +1,20 @@
+Total bytecount:57535Files list:
+hello.py
+functions.py
+files.py
+palindrome.py
+variables_expressions.py
+files_challenge.py
+osPathUtil.py
+shellUtils.py
+testzip.zip
+loops.py
+results
+textfile.txt.bak
+newfile.txt
+conditionals.py
+exceptions.py
+modules.py
+classes.py
+.git
+archive.zip
